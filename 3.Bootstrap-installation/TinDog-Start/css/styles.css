@@ -1,0 +1,152 @@
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+/* It will be 7% on each side, 15% top and bottom */
+#features{
+  background-color: #fff;
+  padding: 7% 15%;
+  position: relative;
+}
+
+.title-image{
+  width: 15%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: "Montserrat-Thick";
+}
+
+
+p{
+  color: #8f8f8f;
+}
+
+body{
+  font-family: "Montserrat-Thick";
+}
+
+.big-heading{
+  font-family: "Montserrat-Bold";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar{
+  padding-bottom: 2.5rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-family: "Montserrat-light";
+  font-size: 1.2rem;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+.download-button{
+  margin: 3% 5% 3% 0%;
+}
+
+
+
+.icon{
+  color: #ef8172;
+  margin: 1rem;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+/* Just color will change, color of the letters */
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/* 20 top, 20 sides, 50 to bottom */
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-col{
+  padding: 3% 2%;
+}
+
+@media (max-width: 900px) {
+  #title{
+    text-align: center;
+  }
+
+  .title-image{
+    position: static;
+    transform:rotate(0);
+    width: 50%;
+  }
+}
+
+#cta{
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.cta-heading{
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.social-icon{
+  margin: 20px 10px;
+}
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
