@@ -1,0 +1,25 @@
+<%- include('partials/header'); -%>
+
+  <h1>Compose</h1>
+
+  <!-- You need a form to send data from HTML to the server -->
+  <!-- The form needs a method "post" and the action should be "/" -->
+  <form action="/compose" method="post">
+    <!-- To give them individual parts -->
+    <div class="form-group">
+      <!-- We need a name for this input to catch it from the server -->
+      <!-- Label does not necessarily need "for" -->
+      <label>Title</label>
+      <!-- "form-control" to give it a good appereance -->
+      <input type="text" class="form-control" name="postTitle" aria-describedby="emailHelp" placeholder="Enter email">
+    </div>
+    <div class="form-group">
+      <label>Post</label>
+      <!-- In order to make it multiple lines unline just input button -->
+      <textarea name="postBody" class="form-control" rows="5" cols="30"></textarea>
+    </div>
+    <!-- The type of the button should be submit -->
+    <button type="submit" class="btn btn-primary">Publish</button>
+  </form>
+
+<%- include('partials/footer'); -%>
